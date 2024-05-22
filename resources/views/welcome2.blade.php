@@ -7,6 +7,19 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
+        <div class="container mt-3">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success me-2" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-primary">Sign In</button>
+                </div>
+            </div>
+        </div>
         <h1>Amazon.in</h1>
         <x-button title="Amazon MiniTV" />
         @component('components.button',['title'=>'Sell'])
@@ -35,6 +48,7 @@
         {{-- @component('components.button',['title'=>'Gift Ideas'])'
         @endcomponent --}}
 
+        
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
