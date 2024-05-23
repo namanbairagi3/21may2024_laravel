@@ -1,0 +1,16 @@
+header{
+    height: 100px;
+    background-color: orangered;
+    color: #fff;
+  
+}
+main{
+    height: 1200px;
+    background-color: white;
+    
+}
+footer{
+    height: 400px;
+    background-color: green;
+    
+}
